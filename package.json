@@ -1,12 +1,13 @@
 {
-  "name": "eslint-plugin-custom",
-  "version": "0.0.0",
-  "description": "Enforce custom import format",
+  "name": "eslint-plugin-azumuta",
+  "version": "0.0.1",
+  "description": "Enforce Azumuta style rules for imports",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
+  "homepage": "https://github.com/Azumuta/eslint-plugin-azumuta",
   "author": "Simon Vanneste",
   "main": "lib/index.js",
   "dependencies": {
