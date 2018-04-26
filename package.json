@@ -1,0 +1,22 @@
+{
+  "name": "eslint-plugin-custom",
+  "version": "0.0.0",
+  "description": "Enforce custom import format",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Simon Vanneste",
+  "main": "lib/index.js",
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
