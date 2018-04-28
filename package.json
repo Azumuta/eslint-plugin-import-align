@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-azumuta",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Enforce Azumuta style rules for imports",
   "keywords": [
     "eslint",
@@ -8,13 +8,14 @@
     "eslint-plugin"
   ],
   "homepage": "https://github.com/Azumuta/eslint-plugin-azumuta",
-  "repository" : { 
-    "type" : "git", 
-    "url" : "https://github.com/Azumuta/eslint-plugin-azumuta.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Azumuta/eslint-plugin-azumuta.git"
   },
   "author": "Simon Vanneste",
   "main": "lib/index.js",
   "dependencies": {
+    "lodash": "^4.17.10",
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
