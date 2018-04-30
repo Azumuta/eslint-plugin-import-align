@@ -1,11 +1,12 @@
 {
   "name": "eslint-plugin-azumuta",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Enforce Azumuta style rules for imports",
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "import"
   ],
   "homepage": "https://github.com/Azumuta/eslint-plugin-azumuta",
   "repository": {

@@ -1,12 +1,13 @@
 # eslint-plugin-azumuta
 
-This eslint plugin implements two rules for import declarations with possible autofix
+This eslint plugin implements three rules for import declarations with possible autofix
 
 ## Default options
 
 ```json
 {
   "rules": {
+    "azumuta/force-absolute-imports": [2, "azumuta/app"],
     "azumuta/align-imports": [2, 45],
     "azumuta/sort-imports": [2, [
       [0, "react"],
@@ -24,6 +25,12 @@ This eslint plugin implements two rules for import declarations with possible au
   }
 }
 ```
+
+## ``force-absolute-imports``
+
+Forces all imports to be 'absolute' paths relative to given root. Should always be mentioned before ``sort-imports`` in rules config.
+
+Useful in conjunction with [babel-root-slash-import](https://github.com/mantrajs/babel-root-slash-import)
 
 ## ``align-imports``
 
