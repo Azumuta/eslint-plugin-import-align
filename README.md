@@ -11,10 +11,10 @@ This eslint plugin implements three rules for import declarations with possible 
     "azumuta/align-imports": [2, 45],
     "azumuta/sort-imports": [2, [
       [0, "react"],
-      [1, "contain", "react"],
-      [1, "prop-types"],
       [2, "meteor/meteor"],
-      [3, "contain", "meteor"],
+      [3, "start", "meteor/"],
+      [1, "contain", "react-"],
+      [1, "prop-types"],
       [5, "*"],
       [10, "start", "/imports/api/"],
       [11, "start", "/imports/ui/"],
